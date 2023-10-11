@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(diana-polekhina-1ixT36dfuSQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+}
+@media only screen and (max-width: 900px) {
+    .Paragraphs {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .Paragraphs {
+        font-size: 12px;
+        width: 160px;
+    }
+}
+
+h1 a {
+    position: absolute;
+    text-decoration: none;
+    color: #dd00ff;
+    font-size: 30px;
+    margin-left: 20px;
+    top: 10px;
+}
+nav {
+    position: absolute;
+    top: 3px;
+    left: 800px;
+}
+nav ul a {
+    display: block;
+    list-style-type: none;
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    border-radius: 6px;
+}
+nav li {
+    display: inline;
+    list-style: none;
+    float: left;
+    padding: 10px 10px;
+    width: 100px;
+    text-align: center;
+    margin: 10px 20px;
+}
+.Paragraphs {
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+.active {
+    background-color: #8f8f8f4a;
+}
+div.gallary {
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #8f8f8f8f;
+}
+div.gallary:hover {
+    border: 1px solid white;
+}
+div.gallary img {
+    width: 100%;
+    height: auto;
+    margin-top: 8px;
+}
+div.note {
+    padding: 15px;
+    text-align: center;
+}
+div.gallary {
+    position: relative;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+h2 {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 30px;
+}
